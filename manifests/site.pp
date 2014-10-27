@@ -75,6 +75,19 @@ node default {
   ruby::version { '2.1.1': }
   ruby::version { '2.1.2': }
 
+  # mystuff
+  include java
+  include elasticsearch
+  # install postgres and run the service
+  include postgresql
+
+  # do the above automatically, and create a db
+  postgresql::db { 'mydb': }
+
+  
+  # we provide some defaults you can include
+  include sysctl::ipforwarding
+
   # common, useful packages
   package {
     [
