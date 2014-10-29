@@ -80,6 +80,7 @@ node default {
   include elasticsearch
   # install postgres and run the service
   include postgresql
+  include imagemagick
 
   # do the above automatically, and create a db
   postgresql::db { 'mydb': }
