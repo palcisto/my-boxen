@@ -81,6 +81,7 @@ node default {
   # install postgres and run the service
   include postgresql
   include imagemagick
+  include imageoptim
 
   # do the above automatically, and create a db
   postgresql::db { 'mydb': }
