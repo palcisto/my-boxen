@@ -82,6 +82,7 @@ node default {
   include postgresql
   include imagemagick
   include imageoptim
+  include redis
 
   # do the above automatically, and create a db
   postgresql::db { 'palcisto': }
