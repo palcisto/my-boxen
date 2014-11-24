@@ -84,7 +84,7 @@ node default {
   include imageoptim
 
   # do the above automatically, and create a db
-  postgresql::db { 'mydb': }
+  postgresql::db { 'palcisto': }
 
   
   # we provide some defaults you can include
