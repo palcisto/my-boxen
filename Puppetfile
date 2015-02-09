@@ -60,9 +60,12 @@ github "xquartz",     "1.2.1"
 # Optional/custom modules. There are tons available at
 # https://github.com/boxen.
 github "elasticsearch", "2.6.0"
-github "java", "1.7.1"
-github "sysctl", "1.0.1"
-github "postgresql", "3.0.0"
-github "imagemagick", "1.3.0"
-github "imageoptim", "0.0.2"
-github "redis", "3.1.0"
+github "imagemagick",   "1.3.0"
+github "imageoptim",    "0.0.2"
+github "java",          "1.7.1"
+github "osx",           "2.7.1"
+github "postgresql",    "3.0.0"
+github "redis",         "3.1.0"
+github "sysctl",        "1.0.1"
+github "zsh",           "1.0.0"
+
